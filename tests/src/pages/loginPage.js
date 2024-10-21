@@ -1,18 +1,17 @@
 const { expect } = require("@playwright/test");
 let { setDefaultTimeout } = require("@cucumber/cucumber");
 setDefaultTimeout(60 * 15000);
-// const path = require("path");
-// require("dotenv").config({
-//     path: path.join(__dirname, "../../.env"),
-// });
+
+require('dotenv').config();
+
 const locator = require ("../fixtures/loginSelector")
 class LoginPage {
     constructor(page) {
         this.page = page;
     }
     async visit() {
-        //  await this.page.goto(process.env.WEB_URL);
-        await this.page.goto('https://www.saucedemo.com/');
+        await this.page.goto(`${process.env.WEB_URL}`);
+        // await this.page.goto('https://www.saucedemo.com/');
     }
 
     async login(username, password) {

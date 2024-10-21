@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 499862861
+              "duration": 253949670
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 299092388
+              "duration": 3874364769
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 10017466168,
-              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+              "status": "passed",
+              "duration": 178585401
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "tests/src/steps/loginStep.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 23918919
             }
           },
           {
@@ -62,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 75307446
+              "duration": 46437242
             }
           }
         ],
@@ -86,7 +85,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 560174733
+              "duration": 196676661
             }
           },
           {
@@ -99,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2508110514
+              "duration": 1959166590
             }
           },
           {
@@ -112,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 228858227
+              "duration": 135275257
             }
           },
           {
@@ -125,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18027444
+              "duration": 10371293
             }
           },
           {
@@ -133,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45381688
+              "duration": 54322882
             }
           }
         ],
@@ -157,7 +156,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 566559364
+              "duration": 207591496
             }
           },
           {
@@ -170,7 +169,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257860098
+              "duration": 1063324721
             }
           },
           {
@@ -182,9 +181,8 @@
               "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 10018762415,
-              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+              "status": "passed",
+              "duration": 140695762
             }
           },
           {
@@ -196,8 +194,8 @@
               "location": "tests/src/steps/loginStep.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 11337469
             }
           },
           {
@@ -205,7 +203,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 58704210
+              "duration": 35884550
             }
           }
         ],
@@ -229,7 +227,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 514373716
+              "duration": 199370056
             }
           },
           {
@@ -242,7 +240,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1411125432
+              "duration": 2095141956
             }
           },
           {
@@ -255,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 398316457
+              "duration": 170528942
             }
           },
           {
@@ -268,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41706030
+              "duration": 9766534
             }
           },
           {
@@ -276,7 +274,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 91831675
+              "duration": 55891913
             }
           }
         ],
@@ -300,7 +298,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 552567073
+              "duration": 194923535
             }
           },
           {
@@ -313,7 +311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1331525088
+              "duration": 1566091722
             }
           },
           {
@@ -326,7 +324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 408057005
+              "duration": 161073761
             }
           },
           {
@@ -339,7 +337,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36903061
+              "duration": 14825128
             }
           },
           {
@@ -352,7 +350,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56896742
+              "duration": 31996948
             }
           },
           {
@@ -360,7 +358,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 78621244
+              "duration": 39746451
             }
           }
         ],
@@ -384,7 +382,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 514717272
+              "duration": 199729522
             }
           },
           {
@@ -397,7 +395,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1195158025
+              "duration": 1193670901
             }
           },
           {
@@ -410,7 +408,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 357832193
+              "duration": 191570519
             }
           },
           {
@@ -423,7 +421,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48355227
+              "duration": 9848489
             }
           },
           {
@@ -436,7 +434,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67035228
+              "duration": 48298774
             }
           },
           {
@@ -444,7 +442,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 176853350
+              "duration": 49415624
             }
           }
         ],
@@ -468,7 +466,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 336031167
+              "duration": 193506939
             }
           },
           {
@@ -481,7 +479,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 236770058
+              "duration": 1372018696
             }
           },
           {
@@ -493,9 +491,8 @@
               "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 10003110976,
-              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+              "status": "passed",
+              "duration": 154233048
             }
           },
           {
@@ -507,8 +504,8 @@
               "location": "tests/src/steps/inventoryStep.js:22"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 150006069
             }
           },
           {
@@ -520,8 +517,8 @@
               "location": "tests/src/steps/inventoryStep.js:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8556359
             }
           },
           {
@@ -529,7 +526,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 73081171
+              "duration": 35028158
             }
           }
         ],
@@ -553,7 +550,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 316903966
+              "duration": 253105503
             }
           },
           {
@@ -566,7 +563,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1122130092
+              "duration": 2556443431
             }
           },
           {
@@ -579,7 +576,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 157859640
+              "duration": 193558376
             }
           },
           {
@@ -592,7 +589,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14921295
+              "duration": 10479246
             }
           },
           {
@@ -605,7 +602,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119238858
+              "duration": 119725699
             }
           },
           {
@@ -613,7 +610,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44799535
+              "duration": 40916792
             }
           }
         ],
@@ -637,7 +634,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 323286162
+              "duration": 204695128
             }
           },
           {
@@ -650,7 +647,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222904546
+              "duration": 1643376191
             }
           },
           {
@@ -662,9 +659,8 @@
               "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 10005629761,
-              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+              "status": "passed",
+              "duration": 163739815
             }
           },
           {
@@ -676,8 +672,8 @@
               "location": "tests/src/steps/inventoryStep.js:22"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 137446923
             }
           },
           {
@@ -689,8 +685,8 @@
               "location": "tests/src/steps/inventoryStep.js:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 11346115
             }
           },
           {
@@ -702,8 +698,8 @@
               "location": "tests/src/steps/cartStep.js:9"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 42442451
             }
           },
           {
@@ -711,7 +707,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 43852103
+              "duration": 37538128
             }
           }
         ],
@@ -735,7 +731,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 221122036
+              "duration": 202730925
             }
           },
           {
@@ -748,7 +744,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 755997217
+              "duration": 1966253877
             }
           },
           {
@@ -761,7 +757,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155077259
+              "duration": 150716756
             }
           },
           {
@@ -774,7 +770,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183887450
+              "duration": 159631719
             }
           },
           {
@@ -787,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66438566
+              "duration": 77148214
             }
           },
           {
@@ -800,7 +796,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 111361963
+              "duration": 113251364
             }
           },
           {
@@ -813,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35277125
+              "duration": 33047244
             }
           },
           {
@@ -821,7 +817,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50852030
+              "duration": 45272934
             }
           }
         ],
