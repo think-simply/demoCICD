@@ -4,7 +4,9 @@
       "tests/features/"
     ],
     "require": [
-      "tests/steps/*.js"
+      "tests/src/steps/*.js",
+      "tests/src/pages/*.js",
+      "tests/src/utility/*.js"
     ],
     "formatOptions": {
       "snippetInterface": "async-await"

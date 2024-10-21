@@ -1,0 +1,5 @@
+{
+    "usernameLocator": "#user-name",
+    "passwordLocator":"#password",
+    "loginButtonLocator":"#login-button"
+}

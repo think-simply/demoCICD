@@ -4,56 +4,57 @@
     "elements": [
       {
         "description": "",
-        "id": "homepage-functionality;verify-product-web-testing",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:invalid-username-and-invalid-password",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Verify Product Web Testing",
+        "line": 13,
+        "name": "1.Verify Login with invalid data:invalid username and invalid password",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1521418504
+              "duration": 499862861
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "User navigates to the Browserstack Homepage",
+            "line": 4,
+            "name": "User navigates to Login page",
             "match": {
-              "location": "tests/steps/homepage.step.js:21"
+              "location": "tests/src/steps/loginStep.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 3060337346
+              "duration": 299092388
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
-            "name": "User clicks on Product Menu",
+            "line": 8,
+            "name": "User inputs data with \"Heath93\" and \"Heath93\"",
             "match": {
-              "location": "tests/steps/homepage.step.js:27"
+              "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 216223431
+              "status": "failed",
+              "duration": 10017466168,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "It should show Web Testing Product",
+            "name": "\"Epic sadface: Username and password do not match any user in this service\" message will be displayed",
             "match": {
-              "location": "tests/steps/homepage.step.js:35"
+              "location": "tests/src/steps/loginStep.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 121723221
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -61,66 +62,70 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 170681259
+              "duration": 75307446
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "homepage-functionality;verify-pricing-product-lists",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:empty-username",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Verify Pricing Product Lists",
+        "line": 14,
+        "name": "1.Verify Login with invalid data:empty username",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 663573583
+              "duration": 560174733
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 13,
-            "name": "User Navigates to Browserstack Homepage",
+            "line": 4,
+            "name": "User navigates to Login page",
             "match": {
-              "location": "tests/steps/homepage.step.js:43"
+              "location": "tests/src/steps/loginStep.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 2334462200
+              "duration": 2508110514
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
-            "name": "User clicks on Pricing Menu",
+            "line": 8,
+            "name": "User inputs data with \"\" and \"Heath93\"",
             "match": {
-              "location": "tests/steps/homepage.step.js:49"
+              "location": "tests/src/steps/loginStep.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1115564408
+              "duration": 228858227
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
-            "name": "It should Display correct Product lists in left Nav",
+            "line": 9,
+            "name": "\"Epic sadface: Username is required\" message will be displayed",
             "match": {
-              "location": "tests/steps/homepage.step.js:55"
+              "location": "tests/src/steps/loginStep.js:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 439807921,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32mArrayContaining [\"Live\", \"App Live\"]\u001b[39m\nReceived: \u001b[31m[\"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"Live (includes Bug Capture)\", …]\u001b[39m\n    at Proxy.<anonymous> (/home/nttheu/PlaywrightCucumberDemo/node_modules/playwright/lib/matchers/expect.js:198:37)\n    at World.<anonymous> (/home/nttheu/PlaywrightCucumberDemo/tests/steps/homepage.step.js:61:26)"
+              "status": "passed",
+              "duration": 18027444
             }
           },
           {
@@ -128,11 +133,708 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 174544111
+              "duration": 45381688
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:empty-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "1.Verify Login with invalid data:empty password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 566559364
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257860098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User inputs data with \"Heath93\" and \"\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10018762415,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Epic sadface: Password is required\" message will be displayed",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58704210
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;2.verify-login-with-valid-data:correct-username-and-pass",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "2.Verify Login with valid data:correct username and pass",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 514373716
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1411125432
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398316457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41706030
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91831675
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;3.should-display-6-items-on-inventory-page",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "3.Should display 6 items on Inventory page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 552567073
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1331525088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408057005
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36903061
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "There are 6 items on Inventory page",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56896742
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78621244
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@low",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;4.user-should-be-able-to-add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "4.User should be able to add item to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 514717272
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1195158025
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357832193
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48355227
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User is able to add item to cart",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67035228
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 176853350
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;5.cart-should-display-the-correct-number-of-added-item",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "5.Cart should display the correct number of added item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 336031167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236770058
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10003110976,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "User add items to cart",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "cart should display the correct number of added item",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73081171
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;6.should-display-the-correct-order-of-item-when-filter-is-set-to-price-low-to-high",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "6.Should display the correct order of item when filter is set to Price low to High",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 316903966
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122130092
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157859640
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14921295
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Should display the correct order of item when filter is set to Price low to High",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119238858
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44799535
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;7.should-display-the-correct-number-of-item-when-remove-item-from-cart",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "7.Should display the correct number of item when remove item from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323286162
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222904546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10005629761,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/home/nttheu/cucumber_playwright_theu/internal/Cucumber_Playwright/node_modules/@cucumber/cucumber/lib/time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "User add items to cart",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "cart should display the correct number of added item",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "should display the correct number of item when remove item from cart",
+            "match": {
+              "location": "tests/src/steps/cartStep.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43852103
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 66
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;8.should-display-the-correct-total-price-of-added-item-when-checking-out",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "8.Should display the correct total price of added item when checking out",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 221122036
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 755997217
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "tests/src/steps/loginStep.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155077259
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User add items to cart",
+            "match": {
+              "location": "tests/src/steps/inventoryStep.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183887450
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User go to checkout page",
+            "match": {
+              "location": "tests/src/steps/cartStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66438566
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User fill infor to checkout \"12\" \"12\" \"12\"",
+            "match": {
+              "location": "tests/src/steps/checkoutStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111361963
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "Should display the correct total price of added item",
+            "match": {
+              "location": "tests/src/steps/checkoutStep.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35277125
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50852030
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 77
+          },
+          {
+            "name": "@now",
+            "line": 77
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -141,6 +843,6 @@
     "keyword": "Feature",
     "name": "Homepage Functionality",
     "tags": [],
-    "uri": "tests/features/homepage.feature"
+    "uri": "tests/features/ecommerce.feature"
   }
 ]
